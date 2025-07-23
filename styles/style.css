@@ -125,3 +125,68 @@ nav li a{
     background-color: rgba(233, 90, 8, 1.00);
     color: rgba(255, 255, 255, 1.00);
 }
+
+
+
+
+@media screen and (max-width:576px) {
+    
+    nav li a.cart{
+    display: none;
+    }
+    .container-head{
+    display: flex;
+    max-width: 390px;
+    
+    
+    }
+    .banner-container{
+    /* max-width: 1140px; */
+    /* height: 461px; */
+    display: flex;
+    flex-direction: column-reverse;
+    /* justify-content:end; */
+    /* align-items: end; */
+    margin: 120px auto;
+    }
+    
+    .banner-image img{
+     width: 393px;
+     height: 243px;
+     
+    }
+   
+    .banner-container h1{
+        font-size: 24px;
+        padding: 28px 16px 13px;
+        
+    }
+    .banner-container p{
+        font-size: 14px;
+        max-width: 360px;
+    }
+    .plants-title h2{
+        font-size: 24px;
+         max-width: 393px;
+         margin-top: -65PX;
+        
+    }
+    .plants-title p{
+        font-size: 14px;
+        width: 336px;
+        /* height: 68px; */
+        margin:-16px 11PX 80PX 55PX;
+        
+        justify-items: center;
+    }
+    .flower-box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        margin-left: 70px;
+    }
+    .flower-item button{
+        width: 171px;
+
+    }
+}
