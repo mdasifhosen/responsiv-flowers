@@ -64,3 +64,23 @@ nav li a{
     width: 570px;
     /* height: 355px; */
 }
+/* our plants styles */
+/* .plants-title{
+    text-align: center;
+} */
+
+.plants-title h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1.00);
+    max-width: 1140px;
+    height: 68px;
+}
+.plants-title p{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.50);
+    max-width: 888px;
+    height: 53px;
+}
+
+/* flower box styles */
