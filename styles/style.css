@@ -125,6 +125,66 @@ nav li a{
     background-color: rgba(233, 90, 8, 1.00);
     color: rgba(255, 255, 255, 1.00);
 }
+/* Flower & Plants Lover */
+
+/* .flower-lover{
+    max-width: 1140px;
+    height: 597px;
+    gap: 60px;
+    margin:211px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-img{
+    width: 540px;
+    height: 597px;
+    position: static;
+
+}
+.logo-img-love{
+    max-width: 100px;
+    position: absolute;
+    margin: -120px 200px;
+    transform: translate(-50%, -50%);
+    
+}
+.container-title h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.container-title p{
+    font-size: 22px;
+    max-width: 540px;
+    height: 107px;
+    color: rgba(0, 0, 0, 0.50);
+} */
+ 
+/* deals-title */
+
+.deals-title{
+    max-width: 1440px;
+    margin: auto;
+    text-align: center;
+}
+.deals-title h1{
+    /* max-width: 1440px; */
+    /* height: 137px; */
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1.00);
+}
+.deals-title p{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.50);
+    width: 888px;
+    height: 53px;
+    margin: auto;
+    
+}
 
 
 
