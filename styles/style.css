@@ -238,18 +238,81 @@ nav li a{
     width: 1440px;
     height: 533px;
     margin: 120px auto;
+    padding: 199px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .colorful-image h1{
     font-size: 50px;
     font-weight: 700;
     color: white;
 }
-.colorful-image ,.btn-primary{
+.btn-3{
+    width: 644px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 15px 520px 20px 20px;
     
 }
+.btn-2{
+    width: 186px;
+    height: 55px;
+    background-color: #E95A08;
+    padding: 26px, 50px, 26px, 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-left: -5px;
+}
 
-
-
+/* footer styles */
+.footer-container{
+    display: flex;
+    width: 1120px;
+    height: 284px;
+    margin: 0 auto;
+    gap: 110px;
+    /* justify-content: center;
+    align-items: center; */
+    
+}
+.footer-description{
+    width: 359px;
+    height: 80px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #00000080;
+}
+.footer-navbar{
+    width: 85px;
+    height: 248px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #00000080;
+    /* padding: 32px; */
+    
+    
+}
+.list{
+    width: 128px;
+    height: 248px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #00000080;
+    /* padding: 32px; */
+    
+}
+.footer-icon{
+    display: flex;
+    width: 216px;
+    height: 36px;
+    gap: 32px;
+}
 
 @media screen and (max-width:576px) {
     
@@ -375,6 +438,38 @@ nav li a{
     .big-box,#image{
         width: 100%;
         height: 110px;
+    }
+    .colorful-image{
+        
+        width: 393px;
+        
+        height: 275px;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .colorful-image h1{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .btn-3{
+        width: 10px;
+        height: 50px;
+    }
+    .btn-2{
+        width: 103px;
+        height: 55px;
+    
+    }
+    /* footer */
+    .footer-container{
+        flex-direction: column;
+        margin: 47px ;
+        gap: 20px;
+    }
+    
+    .footer-icon{
+        flex-direction: row;
     }
     
 }
