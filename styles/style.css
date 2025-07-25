@@ -454,7 +454,7 @@ nav li a{
     }
     .colorful-image input[type=text] {
     width: 218px;
-    height: 50px;
+    height: 2 0px;
     /* width: 50%; */
     }
     .colorful-image input[type="submit"]{
@@ -471,12 +471,23 @@ nav li a{
     /* footer */
     .footer-container{
         flex-direction: column;
-        margin: 47px ;
+        /* padding: 32px; */
+        margin: 20px ;
         gap: 20px;
+        width: 393px;
+        height: 865px;
+    }
+    .footer-description{
+        font-size: 16px;
+        width: 359px;
+        height: 58px;
     }
     
     .footer-icon{
         flex-direction: row;
+    }
+    .footer-navbar,.list{
+        padding: 32px;
     }
     
 }
